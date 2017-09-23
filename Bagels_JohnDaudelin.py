@@ -290,7 +290,7 @@ def playGame(player):
     Keyword arguments:
     player -- a string dictating how guesses are retrieved
 
-    Create a secret and enter a loop which does three things repetively:
+    Create a secret and enter a loop which does three things repeatedly:
       1. Retrieve a new guess
       2. Generate the clue for the new guess
       3. Print the results of the clue, analyze the results (if
