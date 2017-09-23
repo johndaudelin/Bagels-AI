@@ -48,6 +48,18 @@ This snipet
 
 I use helper functions to create a random secret code, play the game, return a clue based on a given guess, analyze a given clue for what information can be gathered (only used by the AI), generate an intelligent guess based on previous information (also only used by the AI), and test the AI any number of times on the game.
 
+My AI is repeatedly referred to as "computer1" throughout my code. This naming convention was followed in case I ever decided to create other, possibly more efficient AI's (which would be called "computer2," etc.). For example:
+
+```python
+def computer1Guess(count):
+    ...
+
+def computer1Analysis(guess, clue):
+    ...
+```
+
+These two functions respectively generate a new guess and analyze a given clue based on computer1's algorithm. For another AI, I would create two functions called computer2Guess() and computer2Analysis().
+
 ## History
 
 Started development mid-November, 2016.
