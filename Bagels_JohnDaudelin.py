@@ -6,7 +6,7 @@ import random
 import string
 
 def threeDigits():
-    """Return a string containing three random digits."""
+    """Returns a string containing three random digits."""
     digit1 = random.choice(string.digits)
     digit2 = random.choice(string.digits)
     digit3 = random.choice(string.digits)
@@ -97,7 +97,7 @@ def computer1Guess(count):
 
 def computer1Analysis(guess, clue):
     """
-    Analyze what information can be gathered from a clue for a given guess.
+    Analyzes what information can be gathered from a clue for a given guess.
 
     Keyword arguments:
     guess -- the three-digit string for which the clue is applicable
@@ -240,7 +240,7 @@ def computer1Analysis(guess, clue):
 
 def clue(secret, guess):
     """
-    Return a clue in the form of a three-element list.
+    Returns a clue in the form of a three-element list.
 
     Keyword arguments:
     secret -- the three-digit string to compare the guess to
@@ -285,7 +285,7 @@ def clue(secret, guess):
     
 def playGame(player):
     """
-    Play the game of Bagels.
+    Plays the game of Bagels.
 
     Keyword arguments:
     player -- a string dictating how guesses are retrieved
@@ -339,7 +339,7 @@ def playGame(player):
 
 def testGame(testNum):
     """
-    Test the computer AI on the game of Bagels.
+    Tests the computer AI on the game of Bagels.
 
     Keyword arguments:
     testNum -- the number of times to test

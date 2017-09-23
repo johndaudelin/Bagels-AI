@@ -6,7 +6,7 @@ This is an AI (artificial intelligence) that I developed in Python from complete
 
 My AI is able to correctly guess the solution for any secret code in an average of about 10.1 guesses. My program also allows the user to play the game of Bagels without the assistance of an AI.
 
-I wrote this program as an assignment for CS100, an introductory programming class I took during my 1st semester at NJIT.
+I wrote this program as an assignment for CS100, an introductory programming class I took during my first semester at NJIT.
 
 ## Demo/Setup
 
