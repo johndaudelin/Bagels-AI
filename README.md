@@ -46,7 +46,7 @@ This snipet
 * shows a sample game played by the computer AI,
 * makes the AI play 10,000 times and displays the statistics of how efficiently the AI played.
 
-I use helper methods to create a random secret code, play the game, test the AI any number of times on the game, analyze a given clue for what information can be gathered (used by the AI), and generate an intelligent guess based on previous information (also used by the AI).
+I use helper functions to create a random secret code, play the game, return a clue based on a given guess, analyze a given clue for what information can be gathered (only used by the AI), generate an intelligent guess based on previous information (also only used by the AI), and test the AI any number of times on the game.
 
 ## History
 
