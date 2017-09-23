@@ -1,4 +1,4 @@
-# Bagels-AI
+# Bagels Game and AI
 
 ## Description
 
