@@ -14,7 +14,7 @@ If you haven't already, download Python 3.6 onto your machine from [this link](h
 
 Open up IDLE (Python 3.6 Shell) and go to File -> Open on the menu bar. Browse to the directory that you cloned this repository into and select "Bagels_JohnDaudelin.py" to open.
 
-Once the .py file has opened, hit Run -> Run Module from the menu bar. IDLE should now run Bagels and ask you to play the game of Bagels! After you've played, the program will show an example of the AI playing a game of Bagels and then test the AI 10,000 times, showing the overall statistics of its game performance to show the efficiency of the program algorithm.
+Once the .py file has opened, hit Run -> Run Module from the menu bar. IDLE should now run Bagels and ask you to play the game of Bagels. After you've played, the program will show an example of the AI playing a game of Bagels and then test the AI 10,000 times, showing the overall statistics of its game performance to show the efficiency of the program algorithm.
 
 ## Code
 
